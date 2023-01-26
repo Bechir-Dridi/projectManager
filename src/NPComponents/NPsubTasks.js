@@ -79,7 +79,7 @@ export default function NPsubTasks({ subTaskName, setSubTaskName, subTaskDescrip
               )}
             </div>
             <div className='add-sub-tasks-container'>
-              <button onClick={() => handleAddSubTasks(taskId)}>add sub-tasks</button>
+              <button onClick={() => handleAddSubTasks(element.taskId)}>add sub-tasks</button>
             </div>
           </div>
         ))

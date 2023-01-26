@@ -47,6 +47,7 @@ export default function NP() {
 
         const newTasks = [...tasks, task]
         setTasks(newTasks)
+        setTaskId(taskId += 1)
         setTaskName(""); setTaskDescription("");
     }
 
